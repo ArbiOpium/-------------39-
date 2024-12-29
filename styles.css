@@ -1,0 +1,29 @@
+body {
+    padding: 10px;
+  } 
+  #parse {
+    margin-bottom: 20px;
+  }  
+  table {
+    border-collapse: collapse;
+    border: 2px solid white;
+  }  
+  tr {    border-bottom: 2px solid white;
+  }
+  td,
+  th {
+    background-color: white;
+  }
+  td:nth-child(even) {
+    background-color: white;
+  }
+  td,
+  th {
+    padding: 5px;
+    text-align: center;
+  }
+  .wheather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
